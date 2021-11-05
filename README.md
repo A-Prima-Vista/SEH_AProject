@@ -50,6 +50,52 @@ Untuk aplikasi yang digunakan oleh masyarakat umum, sebenarnya ada fitur crushia
 
 [Download Apk](https://drive.google.com/file/d/1fJfEVCcQVDmetnGSj1afLrWchCisJA78/view?usp=sharing)
 
+Instruksi untuk uji coba:
+- Install Apk
+- Buka Aplikasi, dengan launcher name nya: Jari Jariah
+- User pertama kali akan diarahkan ke halaman scanner QR. 
+- navigasi ke tab Home untuk Peta persebaran kotak amal, saat ini masih di patok ke sekitar kota Mataram, NTB. data masih dummy data, namun secara realtime dari Firebase.
+
+Mencoba scan.
+- Cari QRCode, apa saja asalkan QR, karena saat ini data QR kita force untuk update 1 kotak amal dulu.
+- Ketika scan berhasil, user akan dibawa ke halaman Kotak Amal.
+- Ambil gambar kotak amal, kemudian pilih status: Penuh, Rusak, Baru (khusus untuk petugas ketika menempatkan kotak amal).
+- Tekan Kirim untuk mengirim gambar.
+- Jika sudah selesai upload, navigasi ke Home, cari di map kotak amal yg kode nya tidak Null, click Bubble nya yg ada di marker untuk navigasi ke halaman detail kotak amal, dan berisi history scan kotak amal oleh user.
+
+
 ## Video and Demo:
 
 [Video Demo](https://drive.google.com/file/d/17Fn_w1EEKHUFOV25IzdDNEgGIN3Jm9hW/view?usp=sharing)
+
+
+# Rencana Pengembangan lebih lanjut
+
+## Aplikasi Admin Lembaga/Command Center
+- Login
+- Dashboard Lembaga
+- Peta persebaran kotak amal lembaga yang sedang login
+- Peta persebaran pengumpulan ZISWAF dalam bentuk Heatmap, untuk mengetahui daerah-daerah mana yang ZISWAF nya tinggi dan rendah
+- Daftar nama petugas beserta tugas/amah kotak/kenclengan yang menjadi tanggung jawabnya
+- Daftar history pengumpulan ZISWAF
+- Laporan tabular
+- FITUR: Pendaftaran/Request pengumpulan dana (pembangunan masjid, rumah yatim, duafa, biaya pengobatan, dll)
+- laporan distribusi ZISWAF.
+- Pengelolaan Halaman/Beranda Lembaga.
+- Pendaftaran Lembaga
+
+
+## Aplikasi Petugas
+- Login Petugas
+- Peta/Heatmap persebaran ZISWAF
+- Pelaporan penarikan/pengumpulan dana dari kotak2 amal.
+- Laporan pengumpulan bulanan
+- Profile management
+
+
+## Aplikasi User umum
+- Instant app
+- Pelaporan status/kondisi kotak amal.
+- Request penempatan kotak amal.
+- Applink untuk redirect QR ke aplikasi.
+
