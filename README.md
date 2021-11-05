@@ -2,6 +2,10 @@
 
 ## The Team
 A Prima Vista
+- Ara,
+- Nisa,
+- Esq,
+- Hayi,
 
 # Ide
 
@@ -17,7 +21,21 @@ Aplikasi ini terdiri dari 3 app yakni:
 - Aplikasi untuk admin pengelola lembaga LAZIS
 - Aplikasi untuk User.
 
+## State of the art Prototype
 
+### Aplikasi untuk Petugas
+- [DONE] Scan barcode kotak amal ketika menempatkan, secara otomatis lokasi penempatan kotak akan disimpan.
+- [DONE] Map penyebaran kotak amal, sehingga tidak mepet-mepet dalam menyebarkan kotak amal.
+- [N/A] Daftar/List kotak amal yang telah disebar oleh petugas
+- [UNCOMPLETED] Profile petugas
+
+### Aplikasi untuk Admin
+- [UNCOMPLETED] Dashboard persebaran kotak amal
+- [UNCOMPLETED] List/daftar petugas
+- [UNCOMPLETED] Informasi Lembaga
+
+### [N/A] Aplikasi untuk masyarakat Umum
+Untuk aplikasi yang digunakan oleh masyarakat umum, sebenarnya ada fitur crushial yg perlu di implementasikan, namun karena keterbatasan waktu dan dana, kami tidak terkejar dalam penambahan fitur ini, yakni: Firebase Applink dan Instant App. dimana ketika user melakukan scaning barcode dengan smartphone nya, walaupun aplikasi tidak terinstall di smartphone, aplikasi instant dari akan secara otomatis dijalankan dari google play store. 
 
 
 ## Demo Apk (Prototype)
