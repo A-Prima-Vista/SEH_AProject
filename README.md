@@ -38,6 +38,14 @@ Aplikasi ini terdiri dari 3 app yakni:
 Untuk aplikasi yang digunakan oleh masyarakat umum, sebenarnya ada fitur crushial yg perlu di implementasikan, namun karena keterbatasan waktu dan dana, kami tidak terkejar dalam penambahan fitur ini, yakni: Firebase Applink dan Instant App. dimana ketika user melakukan scaning barcode dengan smartphone nya, walaupun aplikasi tidak terinstall di smartphone, aplikasi instant dari akan secara otomatis dijalankan dari google play store. 
 
 
+## Stack
+- Firebase
+- Flutter
+- QRCode
+- Google Map
+- AppLink/Firebase AppLink
+- Instant App.
+
 ## Demo Apk (Prototype)
 
 [Download Apk](https://drive.google.com/file/d/1fJfEVCcQVDmetnGSj1afLrWchCisJA78/view?usp=sharing)
